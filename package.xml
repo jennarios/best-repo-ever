@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>56.0</version>
+    <types>
+        <members>Account.Active__c</members>
+        <members>Account.AutorabitExtId__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Floor_Tile__c</members>
+        <members>Hall__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <name>Role</name>
+    </types>
+</Package>
