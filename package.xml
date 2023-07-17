@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>56.0</version>
     <types>
+        <members>AccountTriggerHandler</members>
+        <members>TestVerifyDate</members>
         <members>VerifyDate</members>
         <members>VerifyDateTest</members>
         <name>ApexClass</name>
