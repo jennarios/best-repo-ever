@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>56.0</version>
     <types>
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
         <members>trlhdtips__tt_UtilController</members>
         <members>trlhdtips__tt_UtilControllerTest</members>
         <name>ApexClass</name>
@@ -9,6 +11,10 @@
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
+    </types>
+    <types>
+        <members>getConMaildingAddress</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
