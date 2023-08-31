@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>56.0</version>
+    <version>57.0</version>
     <types>
+        <members>AccountTriggerHandler</members>
+        <members>TestVerifyDate</members>
         <members>trlhdtips__tt_UtilController</members>
         <members>trlhdtips__tt_UtilControllerTest</members>
         <name>ApexClass</name>
@@ -9,6 +11,10 @@
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
+    </types>
+    <types>
+        <members>TuMascataNewsTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
@@ -1476,6 +1482,10 @@
         <members>PaymentMethod.PaymentMethodSubType</members>
         <members>PaymentMethod.PaymentMethodType</members>
         <members>PaymentMethod.Status</members>
+        <members>Pets__c.Bonus_Items__c</members>
+        <members>Pets__c.Bonus_Package__c</members>
+        <members>Pets__c.Dog_Owner__c</members>
+        <members>Pets__c.Pet_Package__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
@@ -1714,6 +1724,9 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>Tu_Mascata__e.Description__c</members>
+        <members>Tu_Mascata__e.Location__c</members>
+        <members>Tu_Mascata__e.Urgent__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -1925,8 +1938,10 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>Floor_Tile__c</members>
         <members>FlowOrchestrationInstance</members>
         <members>FlowOrchestrationWorkItem</members>
+        <members>Hall__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -1968,6 +1983,7 @@
         <members>PaymentGroup</members>
         <members>PaymentLineInvoice</members>
         <members>PaymentMethod</members>
+        <members>Pets__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Problem</members>
@@ -2000,6 +2016,7 @@
         <members>Task</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>Tu_Mascata__e</members>
         <members>User</members>
         <members>UserExternalCredential</members>
         <members>UserProvisioningRequest</members>
@@ -2016,6 +2033,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Pets__c</members>
         <members>trlhdtips__Get_Your_Login_Credentials</members>
         <members>trlhdtips__Install_a_Package</members>
         <members>trlhdtips__Welcome</members>
@@ -2287,6 +2305,7 @@
         <members>PaymentGateway.PaymentGateway</members>
         <members>PaymentGroup.PaymentGroup</members>
         <members>PaymentLineInvoice.PaymentLineInvoice</members>
+        <members>Pets__c.All</members>
         <members>ProcessException.all_process_exceptions</members>
         <members>Product2.AllProducts</members>
         <members>Recommendation.All_Recommendations</members>
@@ -2412,6 +2431,7 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Pets__c.Dogs</members>
         <name>RecordType</name>
     </types>
     <types>
