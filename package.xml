@@ -13,6 +13,7 @@
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>BearAlertTopicAssignmentTrigger</members>
         <members>getConMaildingAddress</members>
         <name>ApexTrigger</name>
     </types>
@@ -105,6 +106,7 @@
         <members>Account.Ownership</members>
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
+        <members>Account.Product__c</members>
         <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
@@ -113,6 +115,7 @@
         <members>Account.Sic</members>
         <members>Account.SicDesc</members>
         <members>Account.Site</members>
+        <members>Account.ThisPick__c</members>
         <members>Account.TickerSymbol</members>
         <members>Account.Tier</members>
         <members>Account.Tradestyle</members>
@@ -2064,6 +2067,10 @@
         <members>LightningService_UtilityBar</members>
         <members>trlhdtips__Trailhead_Tips_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Tu_Muscata</members>
+        <name>Flow</name>
     </types>
     <types>
         <members>DE Default</members>
