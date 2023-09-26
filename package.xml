@@ -920,6 +920,7 @@
         <members>DigitalWallet.Phone</members>
         <members>DigitalWallet.ProcessingMode</members>
         <members>DigitalWallet.Status</members>
+        <members>Dog_Yard__c.New_Pet__c</members>
         <members>DuplicateRecordItem.DuplicateRecordSetId</members>
         <members>DuplicateRecordItem.RecordId</members>
         <members>DuplicateRecordSet.DuplicateRuleId</members>
@@ -1886,6 +1887,7 @@
         <members>CaseContactRole</members>
         <members>CaseMilestone</members>
         <members>CaseRelatedIssue</members>
+        <members>Cat_Yard__c</members>
         <members>ChangeRequest</members>
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
@@ -1919,6 +1921,7 @@
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DigitalWallet</members>
+        <members>Dog_Yard__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -2025,6 +2028,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Cat_Yard__c</members>
         <members>trlhdtips__Get_Your_Login_Credentials</members>
         <members>trlhdtips__Install_a_Package</members>
         <members>trlhdtips__Welcome</members>
@@ -2229,6 +2233,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>Cat_Yard__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
