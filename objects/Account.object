@@ -373,7 +373,21 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Which package do you have?</inlineHelpText>
+        <label>Purchased Package</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Rating</fullName>
+        <inlineHelpText>To work on determining the customers rating</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -443,6 +457,40 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ThisPick__c</fullName>
+        <externalId>false</externalId>
+        <label>ThisPick</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>This</fullName>
+                    <default>false</default>
+                    <label>This</label>
+                </value>
+                <value>
+                    <fullName>That</fullName>
+                    <default>false</default>
+                    <label>That</label>
+                </value>
+                <value>
+                    <fullName>There</fullName>
+                    <default>false</default>
+                    <label>There</label>
+                </value>
+                <value>
+                    <fullName>When</fullName>
+                    <default>false</default>
+                    <label>When</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
