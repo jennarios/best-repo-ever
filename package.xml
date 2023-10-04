@@ -921,6 +921,7 @@
         <members>DigitalWallet.Phone</members>
         <members>DigitalWallet.ProcessingMode</members>
         <members>DigitalWallet.Status</members>
+        <members>Dog_Yard__c.New_Pet__c</members>
         <members>DuplicateRecordItem.DuplicateRecordSetId</members>
         <members>DuplicateRecordItem.RecordId</members>
         <members>DuplicateRecordSet.DuplicateRuleId</members>
@@ -1927,6 +1928,7 @@
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DigitalWallet</members>
+        <members>Dog_Yard__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -2143,6 +2145,7 @@
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
+        <members>Dog_Yard__c-Dog Yard Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Entitlement-Entitlement Layout</members>
